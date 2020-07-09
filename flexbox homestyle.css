@@ -1,0 +1,277 @@
+/* media queries */
+@media screen and (min-width:320px) {
+    html,
+    body {
+        padding: 0;
+        margin: 0;
+    }
+    * {
+        box-sizing: border-box;
+    }
+    #great {
+        display: flex;
+        width: 100%;
+        margin: auto;
+    }
+    .grand {
+        display: flex;
+        max-width: 100%;
+        margin: auto;
+    }
+    #parent {
+        display: flexbox;
+        width: 100%;
+        max-width: 800px;
+    }
+    #topnav {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        background-color: rgb(46, 44, 44);
+        color: blanchedalmond;
+        line-height: 30px;
+    }
+    #topnav a {
+        color: white;
+        text-decoration: none;
+        padding: 15px;
+    }
+    #topnav a:hover {
+        background-color: rgb(236, 228, 228);
+        color: black;
+        padding-top: 7.5px;
+        padding-bottom: 7px;
+    }
+    #home {
+        background-color: #4CAF50;
+        padding-top: 7.5px;
+        padding-bottom: 7.5px;
+    }
+    .content {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 800px;
+        margin: auto;
+    }
+    .content a {
+        color: rgb(9, 112, 143);
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+    }
+    .content a:hover {
+        text-decoration: underline;
+        color: purple;
+    }
+    .names {
+        border: 1px solid rgb(5, 54, 5);
+        height: 20px;
+        width: 100%;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        padding:0 10px ;
+        text-align: center;
+    }
+    #japan {
+        background-color: rgb(70, 193, 197);
+        text-align: center;
+        color: blanchedalmond;
+        line-height: 20px;
+        font-size: 13px;
+    }
+    #bottomnav {
+        text-align: center;
+        line-height: 30px;
+        color: white;
+        background-color: rgb(70, 193, 197);
+    }
+    .imagehover {
+        width: 100%;
+        height: 100%;
+        max-width: 80px;
+        max-height:128px;
+        transition: width .5s, height .5s;
+    }
+    .imagehover:hover {
+        display: none;
+    }
+    .imglogo {
+        width: 100%;
+        max-width: 800px;
+    }
+    .side {
+        display: none;
+        flex-direction: column;
+    }
+    a#englishpage,
+    a#fanpage,
+    a#japanesepage {
+        display: none;
+    }
+    .child {
+        width: calc(100%/3);
+        margin: auto;
+        /* text-align: center; */
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border: 1px solid red;
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        line-height: 15px !important;
+    }
+    .dropbtn {
+        background-color: #757e75;
+        color: white;
+        padding:-10%;
+        border: none;
+        cursor: pointer;
+        line-height: 15px !important;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        right: 0;
+        background-color: #e21313;
+        min-width: 100px;
+        line-height: 15px !important;
+    }
+    div.dropdown-content a {
+        color: black;
+        text-decoration: none;
+        display: block;
+        line-height: 15px !important;
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+        line-height: 15px !important;
+    }
+    .dropdown:hover .dropbtn {
+        background-color: #3e8e41;
+    }
+    span {
+        color: #0ab810;
+    }
+}
+@media screen and (min-width:480px) {
+    #topnav {
+        font-size: 16px;
+        line-height: 40px;
+    }
+    #topnav a {
+        padding: 30px;
+    }
+    #topnav a:hover {
+        padding-top: 12px;
+        padding-bottom: 11px;
+    }
+    #japan {
+        line-height: 22px;
+    }
+    #bottomnav {
+        line-height: 30px;
+    }
+    #home {
+        padding-bottom: 12px;
+        padding-top: 12px;
+    }
+    .imagehover { 
+        width: 100%;
+        height: 100%;
+        max-width: 120px;
+        max-height: 168px;
+        transition: width .5s, height .5s;
+    }
+    .imagehover:hover {
+        height: 240px;
+        width: 155px;
+        display:flex;
+    }
+}
+@media screen and (min-width:768px) {
+    #topnav {
+        font-size: 16px;
+        line-height: 50.5px;
+    }
+    #topnav a {
+        text-decoration: none;
+        padding: 30px;
+    }
+    #topnav a:hover {
+        padding-top: 17px;
+        padding-bottom: 17px;
+    }
+    #home {
+        padding-top: 17px;
+        padding-bottom: 17px;
+    }
+    .imagehover {
+        max-width: 120px;
+        max-height: 168px;
+        transition: width .5s, height .5s;
+    }
+    .imagehover:hover {
+        height: 280px;
+        width: 195px;
+        display: flex;
+    }
+    a#englishpage,
+    a#fanpage,
+    a#japanesepage {
+        display: inline;
+    }
+    .dropdown{
+        display: none;
+    }
+}
+@media screen and (min-width:1024px) {
+    #topnav a {
+        text-decoration: none;
+        padding: 30px;
+    }
+    #topnav a:hover {
+        padding-top: 17px;
+        padding-bottom: 17px;
+    }
+    .imagehover {
+        width: 120px;
+        height: 168px;
+        transition: width .5s, height .5s;
+    }
+    .imagehover:hover {
+        height: 280px;
+        width: 195px;
+        display: flex;
+    }
+    .imglogo{
+        max-width: 800px;
+    }
+}
+@media screen and (min-width:1473px) {
+    #great {
+        display: flex;
+        width: 1473px;
+        margin: auto
+    }
+    .grand {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .imagehover {
+        width: 120px;
+        height: 168px;
+        transition: width .5s, height .5s ;
+    }
+    .imagehover:hover {
+        height: 300px;
+        width: 215px;
+        display: flex;
+    }
+    .side {
+        display:flex;
+        flex-direction: column;
+    }
+}
