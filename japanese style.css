@@ -7,6 +7,10 @@ html , body{
     max-width: 800px;
     margin: auto;
 }
+#imglogo {
+    width: 100%;
+    max-width: 800px;
+}
 a {color: white;
     text-decoration: none;
     padding: 16.5px;}
@@ -24,7 +28,9 @@ div#topnav a:hover {background-color: rgb(236, 228, 228);
     text-align: center;
     color: blanchedalmond;
     line-height: 22px;
-    width: 800px;}
+    width:100%;
+    max-width: 800px;
+}
 #fold a {color: rgb(70, 193, 197);
     font-size: 15px;
     font-family:Arial, Helvetica, sans-serif ;}
@@ -44,21 +50,7 @@ p a:hover {color: purple;
     color: white;
     background-color:rgb(70, 193, 197);}
 #bottomnav a:hover {text-decoration: underline;
-    text-decoration-color: purple;}  
-@media screen and (min-width:320px) {
-    #parent , #imglogo , #japan {
-        max-width: 320px;
-    }
-}
-@media screen and (min-width:480px) {
-    #parent , #imglogo , #japan {
-        max-width: 480px;
-    }
-}
-@media screen and (min-width:768px) {
-    #parent , #imglogo , #japan {
-        max-width: 768px;
-    }
-}
+    text-decoration-color: purple;} 
+
 
 
