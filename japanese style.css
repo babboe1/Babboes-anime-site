@@ -1,0 +1,64 @@
+html , body{
+    padding: 0;
+    margin: 0;
+}
+#parent {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+a {color: white;
+    text-decoration: none;
+    padding: 16.5px;}
+div#topnav a:hover {background-color: rgb(236, 228, 228);
+    color: black;}
+#topnav {font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: rgb(46, 44, 44);
+    color:blanchedalmond;
+    line-height: 50px;}
+#active {background-color: #4CAF50;
+    color: white;
+    padding-right: 20px;}
+#japan {background-color: rgb(70, 193, 197);
+    text-align: center;
+    color: blanchedalmond;
+    line-height: 22px;
+    width: 800px;}
+#fold a {color: rgb(70, 193, 197);
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif ;}
+p {border-bottom: 0.1px solid rgb(236, 235, 235);
+    margin-top: 5px;
+    margin-bottom: 5px;}
+p a {color:#007ad3; ;
+    padding-left: 0px;
+    padding-right:0px;
+    font-family: sans-serif;
+    font-size: 11px;
+    font-weight: bold;}
+p a:hover {color: purple;
+    text-decoration: underline;}
+#bottomnav {text-align: center;
+    line-height: 25px;
+    color: white;
+    background-color:rgb(70, 193, 197);}
+#bottomnav a:hover {text-decoration: underline;
+    text-decoration-color: purple;}  
+@media screen and (min-width:320px) {
+    #parent , #imglogo , #japan {
+        max-width: 320px;
+    }
+}
+@media screen and (min-width:480px) {
+    #parent , #imglogo , #japan {
+        max-width: 480px;
+    }
+}
+@media screen and (min-width:768px) {
+    #parent , #imglogo , #japan {
+        max-width: 768px;
+    }
+}
+
+
