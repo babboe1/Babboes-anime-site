@@ -29,12 +29,20 @@
 </head>
 <body>
     <div id="parent">
-        <img src="logo.png" width="800" id="imglogo" />
+        <img src="logo.png" id="imglogo" />
         <div id="topnav">
             <a href="flex box home.html">Home</a>
             <a href="second page.html">English</a>
-            <a href="japanese page.html">Japanese</a>
-            <a href="https://www.facebook.com/coronavirus_info/?page_source=bookmark">Fan page</a>
+            <a href="japanese page.html" id="japanesepage">Japanese</a>
+            <a href="https://www.facebook.com/coronavirus_info/?page_source=bookmark" id="fanpage">Fan page</a>
+            <div class="dropdown" style="float: right;">
+                <button class="dropbtn">&#9776;</button>
+                <div class="dropdown-content">
+                    <a href="english page.html">English</a>
+                    <a href="japanese page.html">Japanese</a>
+                    <a href="#">Fan Page </a>
+                </div>
+            </div>
         </div>
         <div id="japan">Name of anime series</div>
         <div id="content">
@@ -44,9 +52,8 @@
             totam adipisci aperiam nemo molestiae facere, optio sed provident iure officia fuga magni? Rerum quidem quisquam quas quaerat maxime, sint
             <p id="para">status:<span>On going</span><br />Released:2025</p>
         </div>
-        
-        <div id="content1">
-            <img src="bb1.jpg">
+        <div id="content1" style="width: 100%;">
+            <img src="bb1.jpg" width="100%">
         </div>
         <div id="japan">Name of anime series</div>
         <p><img src="folder.jpg"><a href="preview.html">episode 01 </a></p>
@@ -68,5 +75,4 @@
         <div id="bottomnav" width="100%">copyright @ 2020-2050<br /><a href="">Privacy Statement</a> | <a href="">Disclaimer </a> |<a href="">Contact Us</a></div>
     </div>
 </body>
-
 </html>

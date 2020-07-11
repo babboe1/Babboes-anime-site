@@ -111,7 +111,7 @@ p a:hover {
     a#fanpage,
     a#japanesepage {
     display: none;
-}
+    }
 }
 @media screen and (min-width: 768px) {
     a#fanpage,
