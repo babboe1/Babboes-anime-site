@@ -109,13 +109,21 @@ p a:hover {
 }
 @media screen and (min-width: 320px) {
     a#fanpage,
-    a#japanesepage {
+    a#japanesepage,
+    a#englishpage {
     display: none;
     }
 }
+@media screen and (min-width:480px) {
+    a#fanpage,
+    a#japanesepage,
+    a#englishpage {
+    display: inline;
+}
 @media screen and (min-width: 768px) {
     a#fanpage,
-    a#japanesepage {
+    a#japanesepage,
+    a#englishpage {
     display: inline;
 }
     .dropdown {
@@ -124,7 +132,8 @@ p a:hover {
 }
 @media screen and (min-width: 800px) {
     a#fanpage,
-    a#japanesepage {
+    a#japanesepage,
+    a#englishpage {
     display: inline;
     }
     .dropdown {
