@@ -1,6 +1,29 @@
-# Babboe-s-area
-# flex box
-cloned http://cartoonsarea.com (anime site) and added some cool features
-this is the first website i cloned and i used different approach in two different website,i used tables in the first one and i used flex box in the second one,my namings and choice of word are still hapharzard please bear with me ,still in the learning process but showing great progress and improvement
+# Anime Website clone
+This is a client-side website clone of a popularly known anime(Japanese Movie)website
 
-i used flexbox to build the page contuary to the counter part where i used tables instead
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Links](#links)
+- [My process](#my-process)
+- [Author](#author)
+
+
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout depending on their device's screen size
+- See hover states for interactive elements
+- click on movie to see details
+
+### Links
+
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
+
