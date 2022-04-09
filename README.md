@@ -1,5 +1,7 @@
 # Anime Website clone
-This is a client-side website clone of a popularly known anime(Japanese Movie)website
+This is a multi webpage application design based on a Japanese anime site, which is able to download and offer descriptions about the anime.
+
+It is a client-side website clone of a popularly known anime(Japanese Movie)website
 
 ## Table of contents
 
